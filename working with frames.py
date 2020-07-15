@@ -26,5 +26,5 @@ driver.find_element_by_link_text("WebDriver").click()
 time.sleep(5)
 driver.switch_to.default_content()
 time.sleep(5)
-# driver.switch_to.frame("classFrame")                                               #THIRD FRAME
-# driver.find_element(By.XPATH,"/html/body/div[1]/ul/li[5]/a").click()
+driver.switch_to.frame("classFrame")                                               #THIRD FRAME
+driver.find_element(By.XPATH,"/html/body/div[1]/ul/li[5]/a").click()
