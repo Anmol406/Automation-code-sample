@@ -52,5 +52,5 @@ password_ele.send_keys("welcome@ad1")
 driver.find_element_by_xpath("//*[@id='u_0_b']").click()
 driver.find_element_by_name("q").send_keys("jatinder pal singh")
 driver.implicitly_wait(10)
-driver.find_element_by_class_name("_585_").click()
+#driver.find_element_by_class_name("_585_").click()
 
